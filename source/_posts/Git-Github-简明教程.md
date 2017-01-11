@@ -1,7 +1,7 @@
 ---
 title: Git Github 简明教程
-date: 2017-01-11 00:13:54
-tags: [Git,GitHub]
+date: 2017-01-11 17:05:19
+tags: [Git,Github]
 ---
 
 ***
@@ -10,6 +10,7 @@ tags: [Git,GitHub]
 # Git是分布式版本控制系统
 适用于纯文本文件txt、html等，不适用于word文件、图片、视频等
 ### 常用的cmd命令
+<!--more-->
 ```
 //在当前目录下创建新的子文件夹
   mkdir <文件夹名>
