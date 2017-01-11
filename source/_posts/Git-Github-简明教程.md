@@ -14,7 +14,7 @@ tags: [Git,Github]
 ```
 //在当前目录下创建新的子文件夹
   mkdir <文件夹名>
-  mkdir new //建立名为“new”的文件夹
+  mkdir new //建立名为“new”的文件夹  
 
 //进入当前目录下该路径中的文件夹
   cd <路径>
@@ -157,11 +157,14 @@ git init //当前目录git化
 ```
 ***
 # GitHub是托管Git仓库的网站
+### 创建SSH key密钥对
+```
+//创建SSH key，每台电脑的用户(C:/User)主目录下会生成.shh目录，包含id_rsa(私钥，不能泄露)和id_rsa.pub(公钥)
+  ssh-keygen -t rsa -C "youremail@example.com" //这之后一路回车使用默认值即可
+```
 ### 添加远程仓库，并关联本地仓库与远程仓库
 ```
-//注册GitHub账号
-//创建SSH key，每台电脑的用户(User)主目录下会生成.shh目录，包含id_rsa(私钥，不能泄露)和id_rsa.pub(公钥)
-//登陆GitHub
+//注册并登陆GitHub
 //Account setting--SSH Keys
 //Add SSH Key，在Key中粘贴id_rsa.pub文件中的内容
 //create repository 创建一个仓库，【不勾选】initialize this repository with a README
