@@ -2,6 +2,7 @@
 title: Git Github 简明教程
 date: 2017-01-11 17:05:19
 tags: [Git,Github]
+categories: 技术
 ---
 
 ***

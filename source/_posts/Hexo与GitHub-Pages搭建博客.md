@@ -2,6 +2,7 @@
 title: Hexo与GitHub Pages搭建博客
 date: 2017-01-11 19:44:54
 tags: Hexo
+categories: 技术
 ---
 ***
 近期用Hexo和GitHub Pages搭建了自己的博客，走了一些弯路，为防止自己以后忘记，现记录下来

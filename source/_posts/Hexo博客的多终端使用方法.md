@@ -2,6 +2,7 @@
 title: Hexo博客的多终端使用方法
 date: 2017-01-11 19:42:23
 tags: Hexo
+categories: 技术
 ---
 ***
 ## 情景描述
